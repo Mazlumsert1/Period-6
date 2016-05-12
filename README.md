@@ -1,10 +1,10 @@
 # Period-6
 
-1. Explain the concept of Hybrid Mobile App Development:
+ Explain the concept of Hybrid Mobile App Development:
 
 The concept about hybrid apps are that you are able to create a mobile application via webtechnologies and then use Cordova/PhoneGap as a layer to intepret the web code to native code. Thereby making app creation for multiple platforms easy. Explain the Pros & Cons of using Hybrid Mobile App Development compared to Native App Development Hybrid apps are very easy to create and only demands a programmer with knowledge to webtechnologies. You only need one code base to compile for android, ios etc. The disadvantage is speed and some native specific functions to be unavailable.
 
-2. Explain about the "building blocks" involved in an ionic Hybrid Application:
+ Explain about the "building blocks" involved in an ionic Hybrid Application:
 Pro's are:
 
 Multi platform, you don't need to be profficient in multiple languages to create and app for both Android and iOS
@@ -15,13 +15,13 @@ Con's are:
 Loading might be slow compared to Native apps
 They don't feel as great as native apps
 
-3. Explain and demonstrate ways to debug Hybrid Mobile Applications Running on a real device:
+ Explain and demonstrate ways to debug Hybrid Mobile Applications Running on a real device:
 
-3.1 Angular controls the logic of the presentation layer. 
-3.2 The app is build and styled by HTML and CSS
-3.3 Cordova is used to access the devices native components.
+ Angular controls the logic of the presentation layer. 
+ The app is build and styled by HTML and CSS
+ Cordova is used to access the devices native components.
 
-4. Explain when and why CORS is a problem for Hybrid Mobile Applications:
+ Explain when and why CORS is a problem for Hybrid Mobile Applications:
 
 Cross Origin Ressource Sharing (CORS) is a safety feature in modern
 browsers that does not allow the website to make an HTTP request to a url that 
@@ -33,8 +33,8 @@ one solution is to make a Access-Control-Allow-Origin * to allow request from al
 Another is to specify the request to go through a proxy and make the proxy 
 talk to the backend instead of you directly. 
 
-5. Explain how and why it is possible for a Hybrid Application to access native phone devices like location, calendar etc.:
- 5.1 
+ Explain how and why it is possible for a Hybrid Application to access native phone devices like location, calendar etc.:
+  
 Screens are small, apps are big, and life as we know it is on its head again. In a world that's increasingly social and open, mobile apps play a vital role, and have changed the focus from what's on the Web, to the apps on our mobile device. Mobile apps are no longer an option, they're an imperative. You need a mobile app, but where do you start? There are many factors that play a part in your mobile strategy, such as your team’s development skills, required device functionality, the importance of security, offline capability, interoperability, etc., that must be taken into account. In the end, it’s not just a question of what your app will do, but how you’ll get it there.
 Like Goldilocks, you may have to try a couple beds that are too soft or too hard, before you find the one that’s just right. And sometimes there’s just no perfect choice. Each development scenario has its pros and cons, and those might in be inline, or at odds, with your means. Unlike Goldilocks, there are no bears to contend with, and it’s our intent that this article keeps you from burning your lips on hot porridge (well, figuratively).
 While this article addresses mobile app development in general, it is specifically targeted at developers looking to create mobile applications that interact with Salesforce.com, Force.com, or Database.com. Currently, the Salesforce Mobile SDK supports building three types of apps:
@@ -42,7 +42,7 @@ Native apps are specific to a given mobile platform (iOS or Android) using the d
 HTML5 apps use standard web technologies—typically HTML5, JavaScript and CSS. This write-once-run-anywhere approach to mobile development creates cross-platform mobile applications that work on multiple devices. While developers can create sophisticated apps with HTML5 and JavaScript alone, some vital limitations remain at the time of this writing, specifically session management, secure offline storage, and access to native device functionality (camera, calendar, geolocation, etc.)
 Hybrid apps make it possible to embed HTML5 apps inside a thin native container, combining the best (and worst) elements of native and HTML5 apps.
 
-5.2 
+
 Hybrid development combines the best (or worst) of both the native and HTML5 worlds. We define hybrid as a web app, primarily built using HTML5 and JavaScript, that is then wrapped inside a thin native container that provides access to native platform features. PhoneGap is an example of the most popular container for creating hybrid mobile apps.
 For the most part, hybrid apps provide the best of both worlds. Existing web developers that have become gurus at optimizing JavaScript, pushing CSS to create beautiful layouts, and writing compliant HTML code that works on any platform can now create sophisticated mobile applications that don’t sacrifice the cool native capabilities. In certain circumstances, native developers can write plugins for tasks like image processing, but in cases like this, the devil is in the details.
 On iOS, the embedded web browser or the UIWebView is not identical to the Safari browser. While the differences are minor, they can cause debugging headaches. That’s why it pays off to invest in popular frameworks that have addressed all of the limitations.
